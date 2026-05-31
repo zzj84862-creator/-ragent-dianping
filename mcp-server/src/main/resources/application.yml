@@ -4,3 +4,12 @@ server:
 spring:
   application:
     name: ragent-mcp-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hmdp?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Zhi123456.
+    data:
+      redis:
+        host: 127.0.0.1
+        port: 6379
